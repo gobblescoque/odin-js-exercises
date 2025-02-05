@@ -1,4 +1,10 @@
-const repeatString = function() {
+const repeatString = function(string, numReapeat) {
+  stringRepeat = string;
+  for (i=0; i < numReapeat - 1; i++) {
+    stringRepeat = stringRepeat.concat(string);
+  }
+
+  return stringRepeat;
 
 };
 
